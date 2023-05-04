@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-class generalInfo extends Component {
+class GeneralInfo extends Component {
 
     render() {
         return (
-            <div className="generalInfo">
+            <div className="module">
                 <h1>General Information</h1>
                 <form>
                     <input type="text" name="firstName" placeholder="First Name"></input>
@@ -18,4 +18,4 @@ class generalInfo extends Component {
     }
 }
 
-export default generalInfo;
+export default GeneralInfo;
