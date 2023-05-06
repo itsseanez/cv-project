@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../styles/styles.css';
 
 class GeneralInfo extends Component {
     constructor(props) {
@@ -48,7 +49,7 @@ class GeneralInfo extends Component {
                     <input type="text" name="lastName" placeholder="Last Name" onChange={this.handleChange}></input>
                     <input type="text" name="email" placeholder="Email" onChange={this.handleChange}></input>
                     <input type="text" name="phoneNumber" placeholder="Phone Number" onChange={this.handleChange}></input>
-                    <input type="text" name="description" placeholder="Description" onChange={this.handleChange}></input>
+                    <input id="description" type="text" name="description" placeholder="Description" onChange={this.handleChange}></input>
                     <div>
                         <button>EDIT</button>
                         <button type="submit">SUBMIT</button>

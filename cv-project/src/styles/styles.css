@@ -1,0 +1,71 @@
+body {
+    display: grid;
+    margin: 0;
+    grid-template-rows: 20vh 80vh;
+}
+
+button {
+    background-color: #674188;
+    color: white;
+    border: 0;
+    font-family: 'Oswald';
+    font-size: xx-large;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+    background-color: #54346f;
+}
+
+form > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+    color: #674188;
+    font-family: "Oswald";
+}
+
+.header {
+    background-color: #674188;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > h1 {
+    color: white;
+    font-family: "Oswald";
+}
+
+input {
+    border-radius: 8px;
+    height: 36px;
+    width: 50vw;
+    font-family: 'Lato';
+    border: 1px solid black;
+}
+
+#description {
+    border-radius: 8px;
+    height: 120px;
+    width: 50vw;
+    font-family: 'Lato';
+    border: 1px solid black;
+}
+
+.module {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
