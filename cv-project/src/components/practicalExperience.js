@@ -12,6 +12,10 @@ class PracticalExperience extends Component {
                     <input type="text" name="city" placeholder="City"></input>
                     <input type="text" name="fromDate" placeholder="From"></input>
                     <input type="text" name="toDate" placeholder="To"></input>
+                    <div>
+                        <button>EDIT</button>
+                        <button type="submit">SUBMIT</button>
+                    </div>
                 </form>
             </div>
         )

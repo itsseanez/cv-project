@@ -12,6 +12,10 @@ class GeneralInfo extends Component {
                     <input type="text" name="email" placeholder="Email"></input>
                     <input type="text" name="phoneNumber" placeholder="Phone Number"></input>
                     <input type="text" name="description" placeholder="Description"></input>
+                    <div>
+                        <button>EDIT</button>
+                        <button type="submit">SUBMIT</button>
+                    </div>
                 </form>
             </div>
         )
